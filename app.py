@@ -13,7 +13,7 @@ df=df.rename(columns={'Date':'ds','Close':'y'})
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    y=str(st.selectbox('Year',(range(2020,2031))))
+    y=str(st.selectbox('Year',(range(2021,2031))))
 with col2:
     m=str(st.selectbox('Month',(range(1,13))))
     
